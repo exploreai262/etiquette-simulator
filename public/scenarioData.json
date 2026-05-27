@@ -1,0 +1,162 @@
+[
+  {
+    "id": "scenario_1",
+    "title": "The Initialization Protocol",
+    "setup": "It is your first week as an intern (or trainee). You are invited to a cross-functional kickoff meeting to observe. The Project Manager unexpectedly asks everyone to go around the table for a brief introduction.",
+    "trigger": "You are the lowest-ranking node in the room. You feel an intense pressure to justify why you were selected for this competitive program. What do you say?",
+    "choices": [
+      {
+        "id": "1a",
+        "label": "The Academic Flex",
+        "text": "Hi, I’m [Name]. I just graduated from State University. I was president of my club, my capstone project won an award, and I’m really excited to prove myself here.",
+        "capitalModifier": -2,
+        "feedback": "You dump irrelevant campus accolades into the network. The senior team mentally categorizes you as a student who still relies on academic validation, not a professional peer.",
+        "skill": "Confidence is quiet. Past academic trophies have zero value in a current operational environment."
+      },
+      {
+        "id": "1b",
+        "label": "The Wallflower",
+        "text": "Hi, I’m [Name]. I’m just an intern here to learn from everyone and hopefully not get in the way.",
+        "capitalModifier": -1,
+        "feedback": "You register as a passive, high-maintenance node. By framing yourself as \"just\" a learner, you assign the rest of the room the burden of managing you.",
+        "skill": "Self-deprecation lowers the system's trust in your baseline utility."
+      },
+      {
+        "id": "1c",
+        "label": "The Functional Node",
+        "text": "Hi, I’m [Name]. I recently joined as an intern. For this project, I’ll be supporting the team by handling the initial data sorting. Looking forward to working with you.",
+        "capitalModifier": 2,
+        "feedback": "Low latency, highly relevant data. You establish your identity and state your exact utility, bypassing ego entirely.",
+        "skill": "Signal Calibration: Providing only the specific data the current environment needs to function."
+      }
+    ]
+  },
+  {
+    "id": "scenario_2",
+    "title": "The Signal-to-Noise Protocol",
+    "setup": "A senior team member asks you to review a spreadsheet they compiled before they present it to the department head. You spot a glaring formula error that invalidates their conclusion.",
+    "trigger": "You need to execute the correction. How do you handle this?",
+    "choices": [
+      {
+        "id": "2a",
+        "label": "The 'A+' Student",
+        "text": "Post in the main team Slack: \"@Senior I found a major calculation error in column D. The correct number is X.\"",
+        "capitalModifier": -3,
+        "feedback": "You optimized for being 'right' but publicly burned a senior node. They will never ask you for help or mentor you again.",
+        "skill": "Knowing the difference between being technically correct and strategically effective."
+      },
+      {
+        "id": "2b",
+        "label": "The Patch",
+        "text": "Silently fix the formula and save the document without telling them.",
+        "capitalModifier": -1,
+        "feedback": "The immediate error is gone, but the root cause remains. They will make the same mistake next time, and you assumed unauthorized risk.",
+        "skill": "Recognizing that masking system errors prevents system growth."
+      },
+      {
+        "id": "2c",
+        "label": "The Alliance",
+        "text": "Message them privately: \"Hey, looking at the sheet, I'm getting a different output in column D. Can we do a quick sanity check on the formula together?\"",
+        "capitalModifier": 2,
+        "feedback": "You provide a controlled exit vector. They fix the error, save face, and view you as a reliable safety net.",
+        "skill": "Ego-Preservation: De-escalating errors by allowing others to self-correct."
+      }
+    ]
+  },
+  {
+    "id": "scenario_3",
+    "title": "The Attention Radii Protocol",
+    "setup": "You are at your desk in an open-plan office. Your phone rings, it is your landlord, and you desperately need to take this call to secure your lease.",
+    "trigger": "The team around you is deep in focus, writing code and drafting reports. How do you handle the call?",
+    "choices": [
+      {
+        "id": "3a",
+        "label": "The Dorm Standard",
+        "text": "Answer at your desk and speak at a normal volume, arguing about the lease terms.",
+        "capitalModifier": -2,
+        "feedback": "You broadcast personal chaos into a shared professional space, breaking the focus of five people around you.",
+        "skill": "Respecting the acoustic boundaries of a shared environment."
+      },
+      {
+        "id": "3b",
+        "label": "The Martyr",
+        "text": "Decline the call to avoid being a nuisance, risking your housing situation.",
+        "capitalModifier": -1,
+        "feedback": "Your personal infrastructure degrades, which will inevitably bleed into your professional performance later.",
+        "skill": "Understanding that self-sacrifice is an unsustainable operating model."
+      },
+      {
+        "id": "3c",
+        "label": "Spatial Isolation",
+        "text": "Hit mute, grab your laptop, walk swiftly to the corridor or a phone booth, and return the call.",
+        "capitalModifier": 2,
+        "feedback": "You handle your critical personal data without leaking acoustic noise into the team's environment.",
+        "skill": "Resource Management: Utilizing physical space to compartmentalize conflicting tasks."
+      }
+    ]
+  },
+  {
+    "id": "scenario_4",
+    "title": "The Early Warning Protocol",
+    "setup": "On Monday morning, you are assigned your first solo deliverable, due on Friday at noon. On Wednesday afternoon, you realize a critical software license you need to finish the work hasn't been approved by IT.",
+    "trigger": "You are officially blocked. If you don't get the software today, missing the Friday deadline is mathematically certain. What do you do?",
+    "choices": [
+      {
+        "id": "4a",
+        "label": "The Heroic Grind",
+        "text": "Keep quiet. You decide to work late on Thursday using free, clunky workarounds, hoping you can scrape together something passable by the deadline.",
+        "capitalModifier": -2,
+        "feedback": "You deliver a subpar product at the last minute. Your manager didn't know you were struggling and couldn't help. You assumed unauthorized risk and failed the team.",
+        "skill": "Predictability is better than heroism. Hiding your blockers creates systemic risk."
+      },
+      {
+        "id": "4b",
+        "label": "The Deadline Excuse",
+        "text": "Wait until Friday morning when the manager asks for the work, then explain that IT never gave you the license so you couldn't finish it.",
+        "capitalModifier": -3,
+        "feedback": "You threw IT under the bus, but the manager blames you. In the professional world, a blocked dependency is your responsibility to escalate, not an excuse for failure.",
+        "skill": "Owning your dependencies. An early warning is a project update; a late warning is just an excuse."
+      },
+      {
+        "id": "4c",
+        "label": "The Proactive Escalation",
+        "text": "Message your manager immediately: \"Heads up, I'm blocked on the IT license. If it doesn't clear by EOD, the Friday deadline is at risk. Should I escalate this to the IT director?\"",
+        "capitalModifier": 2,
+        "feedback": "You protected the system. Your manager appreciates the heads-up and steps in to expedite the IT request. You proved you can manage risk reliably.",
+        "skill": "Flagging blockers early. Professionals communicate risk days before it becomes a failure."
+      }
+    ]
+  },
+  {
+    "id": "scenario_5",
+    "title": "The Feedback Reception Protocol",
+    "setup": "You submit your first major presentation deck to your manager. They send it back completely covered in comments, essentially tearing apart the structure and asking for massive rewrites.",
+    "trigger": "In college, this level of red ink meant you failed. You feel a rush of defensive anxiety. How do you respond?",
+    "choices": [
+      {
+        "id": "5a",
+        "label": "The Defense Attorney",
+        "text": "Draft a long email explaining your thought process for every single slide, subtly proving why your original way actually made sense.",
+        "capitalModifier": -2,
+        "feedback": "You optimized for protecting your ego. The manager doesn't care about your justifications; they just want the deck fixed. You are now seen as defensive and difficult to coach.",
+        "skill": "Feedback is not a debate. Defensiveness slows down the iteration cycle."
+      },
+      {
+        "id": "5b",
+        "label": "The Apologetic Collapse",
+        "text": "Message them: \"I am so sorry, I totally missed the mark on this. I'll just delete it and start over. Let me know if you'd rather just have someone else do it.\"",
+        "capitalModifier": -1,
+        "feedback": "You force your manager into the role of a therapist. Instead of just reviewing your work, they now have to manage your emotional state and reassure you.",
+        "skill": "Separating self-worth from work output. Apologize for careless mistakes, but never apologize for receiving standard feedback."
+      },
+      {
+        "id": "5c",
+        "label": "The Clinical Processor",
+        "text": "Reply: \"Got the notes. Thanks for the thorough review. I see where you want to take the structure. I'll get v2 back to you by tomorrow afternoon.\"",
+        "capitalModifier": 2,
+        "feedback": "You absorb the impact like a professional. You acknowledge the data, set a new timeline, and move forward without emotional friction. You are highly coachable.",
+        "skill": "Processing feedback clinically. A red pen is a calibration tool, not an attack on your intelligence."
+      }
+    ]
+  }
+]
